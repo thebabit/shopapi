@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e018407a-294d-4f7d-96f1-6cbaaf0b81f0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hL5SDMOSjIBd9g5JtKbC6fYDEc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.shopapi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.shopapi.config" />
+      <recent name="com.example.shopapi.Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hoang peo\Desktop\code cahllenge\shopapi\src\main\resources" />
+      <recent name="C:\Users\hoang peo\Desktop\code cahllenge\shopapi\src\main\java\com\example\shopapi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ShopapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shopapi.ShopapiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e018407a-294d-4f7d-96f1-6cbaaf0b81f0" name="Default Changelist" comment="" />
+      <created>1599777529167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599777529167</updated>
+      <workItem from="1599777533023" duration="18713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599785545059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599785545059" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1599786862999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599786862999" />
+    <state x="614" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599777636129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599777636129" />
+    <state x="756" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599777638364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1599777638364" />
+    <state x="672" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599778093129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599778093129" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1599807664909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664909" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1599807664909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664909" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1599807664909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664909" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1599807664909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664909" />
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom" timestamp="1599807664910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664910" />
+    <state width="1877" height="274" key="GridCell.Tab.1.center" timestamp="1599807664909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664909" />
+    <state width="1877" height="274" key="GridCell.Tab.1.left" timestamp="1599807664909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664909" />
+    <state width="1877" height="274" key="GridCell.Tab.1.right" timestamp="1599807664910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599807664910" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1599782948820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599782948820" />
+    <state x="629" y="118" width="661" height="804" key="find.popup" timestamp="1599805751642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="118" width="661" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599805751642" />
+  </component>
+</project>
