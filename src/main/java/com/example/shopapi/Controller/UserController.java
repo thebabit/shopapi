@@ -44,42 +44,49 @@ public class UserController {
     public String buyItems(@RequestBody Shopingcart cart) {
 
 
+
         Items updatedItem = itemService.findByItemName(cart.getItemName());
+        AppUser user = userService.findByUserName(cart.getUsername());
         Shopingcart updatedCart = cartService.findByUsernameAndItemName(cart.getUsername(),cart.getItemName());
+        if( user != null && updatedItem != null){
+            if(updatedCart == null){
+                int newItemQuantity = updatedItem.getItemQuantity() - cart.getQuantity();
+                if ( newItemQuantity >= 0){
+                    updatedItem.setItemQuantity(newItemQuantity);
 
-        if(updatedCart == null){
-            int newItemQuantity = updatedItem.getItemQuantity() - cart.getQuantity();
-            if ( newItemQuantity >= 0){
-                updatedItem.setItemQuantity(newItemQuantity);
+                    cartService.update(cart);
+                    itemService.update(updatedItem);
+                    return  "transaction done, check your cart";
+                }
+                else{
+                    return "out of stock";
+                }
 
-                cartService.update(cart);
-                itemService.update(updatedItem);
-                return  "transaction done, check your cart";
+
             }
-            else{
-                return "out of stock";
+            else {
+
+                int newCartQuantity = updatedCart.getQuantity() + cart.getQuantity();
+                int newItemQuantity = updatedItem.getItemQuantity() - cart.getQuantity();
+                if(newItemQuantity >= 0){
+                    updatedCart.setQuantity(newCartQuantity);
+                    updatedItem.setItemQuantity(newItemQuantity);
+
+                    cartService.update(updatedCart);
+                    itemService.update(updatedItem);
+                    return  "transaction done, check your cart";
+
+                }else {
+                    return "out of stock";
+                }
+
+
             }
-
-
         }
         else {
+            return "wrong items name or user name ";
+        }
 
-            int newCartQuantity = updatedCart.getQuantity() + cart.getQuantity();
-            int newItemQuantity = updatedItem.getItemQuantity() - cart.getQuantity();
-            if(newItemQuantity >= 0){
-                updatedCart.setQuantity(newCartQuantity);
-                updatedItem.setItemQuantity(newItemQuantity);
-
-                cartService.update(updatedCart);
-                itemService.update(updatedItem);
-                return  "transaction done, check your cart";
-
-            }else {
-                return "out of stock";
-            }
-
-
-            }
 
     }
 
