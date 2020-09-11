@@ -25,7 +25,7 @@ http://localhost:8080/User/usercart : Hit this end point to check Shoping cart
  To hit this endpoint, use postman send a json file with this format :
 	{
 	"username": "hoangle"
-}
+	}
 Note: hoangle is username .
 http://localhost:8080/User/buy : hit this end point to buy items and put it into cart 
 To hit this endpoint, use postman send a json file with this format :
