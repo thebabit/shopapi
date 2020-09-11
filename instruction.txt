@@ -1,0 +1,37 @@
+This Shop APi was Created by Hoang Le 
+Main function: User can buy items that is in items list, every time user by an item they put item name, user name, and quantity. If items in stock then it will update shopping cart. If out of stock then transaction failed. Also if you put wrong item name or user name, application will not do any transaction. 
+
+
+Database in this project is H2 database, to check the database use http://localhost:8080/h2-console 
+When start the project, find this line on console window to get connect information to connect with database:
+
+2020-09-11 02:16:01.349  INFO 6288 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:92683abd-2178-47d9-93a6-e4dc4f013046'
+
+I added some dummy data into database every time the application restart 
+Database include: 
+AppUser : 
+	Id : 1 , username : admin
+	Id : 2, username :hoangle
+Items: 
+	Id : 1 , Item_name : item1 , item_price: 50.0, item_quantity: 20
+	Id : 2 , Item_name : item2 , item_price: 50.0, item_quantity: 10
+
+I also make a documentation for this API using swagger : http://localhost:8080/swagger-ui.html 
+You can check the above documentation to understand more how to connect with endpoint 
+
+There are 3 main endpoint in this project : 
+http://localhost:8080/Item/Items : Hit this end point to check items list 
+http://localhost:8080/User/usercart : Hit this end point to check Shoping cart 
+ To hit this endpoint, use postman send a json file with this format :
+	{
+	"username": "hoangle"
+}
+Note: hoangle is username .
+http://localhost:8080/User/buy : hit this end point to buy items and put it into cart 
+To hit this endpoint, use postman send a json file with this format :
+{
+	"username": "hoangle",
+	"itemName": "item1",
+	"quantity": 2
+}
+
